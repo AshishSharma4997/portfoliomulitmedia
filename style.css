@@ -1,0 +1,480 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+a {
+  color: #149ddd;
+}
+
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 0 15px;
+  background: #040b14;
+
+}
+
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 4px solid #2c2f3f;
+}
+/*Profile Header*/
+#header .profile h1 {
+  font-size: 24px;
+   font-weight: 600;
+   text-align: center;
+    color: crimson;
+}
+#header .profile p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    
+}
+#header .profile h1 a{
+    color: white;
+}
+#header .profile h1 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#header .profile .social-links a {
+  font-size: 18px;
+ display: inline-block;
+  background: #212431;
+  color: #fff;
+  padding: 5px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+
+}
+
+.btn-primary {
+    background-color: black !important;
+    border: black !important;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 170px;
+}
+#main {
+  margin-left: 300px;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+.nav-menu {
+  padding-top: 30px;
+}
+
+.nav-menu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.nav-menu a i {
+  font-size: 24px;
+  padding-right: 8px;
+  color: #6f7180;
+}
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+  color: #149ddd;
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("images/77.jpg") center;
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+}
+
+#hero:before {
+
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;  
+  right: 0;
+ 
+}
+
+
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: black;
+}
+
+#hero p {
+  color: black;
+  margin-bottom: 50px;
+  font-size: 26px;
+text-align: center; 
+}
+
+#hero p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+#about{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section-title{
+    margin-bottom: 30px;
+}
+.section-title h2 {
+    color: #8a209d;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  margin-bottom: 20px;
+}
+
+.services .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  border: 1px solid #149ddd;
+}
+
+.services .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+
+.services .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #343a40;
+}
+
+.services .title a:hover {
+  color: #149ddd;
+}
+
+.services .description {
+  margin-left: 80px;
+
+  font-size: 14px;
+}
+/*Tabel Margin and padding  */
+td {
+    padding: 16px;
+}
+
+
+#footer {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #040b14;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+
+
+
+/*--------------------------------------------------------------
+#   box modelling
+--------------------------------------------------------------*/
+/*
+div {
+  background-color: lightblue;
+  width: 200px;
+  padding: 25px;
+  border: 25px solid navy;
+}
+*/
+.col-4.box-title {
+    margin-left: 20px;
+    background-color: #149ddd;
+    width: 500px;
+    padding: 25px;
+    border: 25px solid #040b14;
+}
+
+/*--------------------------------------------------------------
+#  Links Colors
+--------------------------------------------------------------*/
+li a:link{
+    color: skyblue !important;
+}
+a:visited {
+  color: green;
+}
+a:active {
+color: yellow;
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+/* List types css  */
+.resume-item.pb-0 ul {
+    list-style-type: circle;
+}
+
+.resume-item.freelancer ul {
+    list-style-type: square;
+}
+
+.resume-item.graphic ul {
+    list-style-type: upper-roman;
+}
+
+/* Opacity */
+.img-thumbnail{
+    opacity: 0.8;
+}
+
+section#resume {
+    background: url(images/bg.jpg) no-repeat center, url(images/bg2.jpg) no-repeat center, url(images/sun.png) no-repeat 10% 30%, lightblue;
+    margin-top: 56px;
+}
+
+
+/*Resume heading*/  
+h2.resume-center {
+    padding-top: 10px;
+}
+/**/
+
+/*Iframe*/
+iframe {
+    margin-top: 32px;
+    margin-left: 60px;
+}
+/**/
+
+
+/*Embed*/
+section.embedtag {
+    margin-left: 60px;
+    padding-top: 27px;
+}
+
+.col-4.embedtag {
+    margin-left: 50px;
+    padding-top: 25px;
+}
+
+/*Animation Div*/
+
+.col-md-6.animation {
+  width: 100px;
+  height: 50px;
+  background-color: lightblue;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+    text-align: center;
+    padding-top: 12px;
+}
+#div1 {
+    animation-timing-function: linear;
+}
+
+.col-4.tagobject {
+    margin-top: 25px;
+}
+
+
+
+/*Media Query*/
+@media (max-width: 1199px) {
+  #header {
+    left: -300px;
+  }
+  #main {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 720px){
+    iframe  {
+        display: none;
+        
+    }
+    
+}
+@media (max-width: 720px){
+    .col-4.tagobject{
+        display: none;
+    }
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
