@@ -161,6 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
   font-size: 26px;
 text-align: center; 
+   margin-right: 84px;
 }
 
 #hero p span {
@@ -169,8 +170,6 @@ text-align: center;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
-
-
 
 
 
