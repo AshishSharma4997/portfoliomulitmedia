@@ -430,7 +430,9 @@ section.embedtag {
 .col-4.tagobject {
     margin-top: 25px;
 }
-
+form ul {
+    list-style: none !important;
+}
 
 
 /*Media Query*/
