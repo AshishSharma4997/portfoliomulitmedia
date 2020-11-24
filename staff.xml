@@ -3,43 +3,43 @@
 	<employee>
 		<ename>MALINI</ename>
 		<eage>34</eage>
-		<esalary>80780</esalary>
+		<job>80780</jobjob>
 	</employee>
 	
     <employee>
 		<ename>NIVAS</ename>
 		<eage>30</eage>
-		<esalary>78090</esalary>
+		<job>78090</job>
 	</employee>
 	
     <employee>
 		<ename>PAVIKA</ename>
 		<eage>28</eage>
-		<esalary>98776</esalary>
+		<job>98776</job>
 	</employee>
     
     <employee>
 		<ename>KARTHIKA</ename>
 		<eage>45</eage>
-		<esalary>89099</esalary>
+		<job>89099</job>
 	</employee>
     
     <employee>
 		<ename>DHILIP</ename>
 		<eage>51</eage>
-		<esalary>77860</esalary>
+		<job>77860</job>
 	</employee>
     
     <employee>
 		<ename>ADEN</ename>
 		<eage>28</eage>
-		<esalary>34340</esalary>
+		<job>34340</job>
 	</employee>
     
     <employee>
 		<ename>ZENIA FIRDOUS</ename>
 		<eage>33</eage>
-		<esalary>44580</esalary>
+		<job>44580</job>
 	</employee>
 
 </company>
